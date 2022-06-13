@@ -11,7 +11,7 @@ print('Server on-line')
 @bot.message_handler(commands=['help', 'start'])
 def help_command(message):
     bot.send_message(message.from_user.id,
-                     'Доступные команды:\n/start\n/help\n/calc "математическое выражение"')
+                     'Доступные команды:\n/help\n/calc "математическое выражение"')
 
 
 @bot.message_handler(commands=['calc'])
