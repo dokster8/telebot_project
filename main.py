@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
-from bashe_game_copy import start_turn
 from settings import token
+from bashe_game_copy import start_turn
 from calc import calc_result
 
 bot = telebot.TeleBot(token)
